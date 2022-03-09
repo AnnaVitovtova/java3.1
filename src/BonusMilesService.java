@@ -1,6 +1,7 @@
 public class BonusMilesService {
-    public int calculate(int cost) {
-        int mils = 10;
+    public static void main() {}
+    public static int calculate(int cost) {
+        int mils = 20;
         int bonus = (cost / mils);
         return bonus;
     }
